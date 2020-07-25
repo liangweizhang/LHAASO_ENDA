@@ -34,7 +34,7 @@ def readNT(FileName):
         print("M3事例比例： {:.2%}'".format(MAS_NUM[2]/(SumNum-MAS_NUM[0])))
         print("M5事例比例： {:.2%}'".format(MAS_NUM[3]/(SumNum-MAS_NUM[0])))
         print("M7事例比例： {:.2%}'".format(MAS_NUM[4]/(SumNum-MAS_NUM[0])))
-path=r'G:\MyPython\00_LHASSO_ENDA事例比例统计\ReadData'
+path=r"G:\MyPython\LHAASO_ENDA\ReadData"
 for i in os.walk(path):
     path_tuple=i
 for name in path_tuple[2]:
